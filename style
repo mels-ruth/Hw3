@@ -1,0 +1,76 @@
+/* Basic Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+main {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    display: block;
+    margin: 1em 0;
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Customizations (required 3) */
+h1, h2, h3 {
+    font-family: 'Georgia', serif; /* Custom font */
+    color: #00264d;               /* Custom color scheme */
+}
+
+main {
+    padding: 2em;                 /* Custom layout/margin */
+}
