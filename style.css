@@ -9,7 +9,7 @@ body {
 
 /* Header and Navigation */
 header {
-    background-color: #004080;
+    background-color: #095db0;
     color: white;
     padding: 1.5em 0;
     text-align: center;
@@ -32,10 +32,6 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
 /* Section Styling */
 main {
     max-width: 900px;
@@ -52,17 +48,6 @@ img {
     border-radius: 8px;
     display: block;
     margin: 1em 0;
-}
-
-/* Footer */
-footer {
-    background-color: #004080;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
 /* Customizations (required 3) */

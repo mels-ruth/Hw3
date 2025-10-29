@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Data Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        .axis-label {
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Social Media Data Visualization using D3</h1>
+    
+    <div class="chart-container">
+        <h2>Part 2.1: Distribution of Likes by Age Group (Box Plot)</h2>
+        <div id="boxplot"></div>
+    </div>
+    
+    <div class="chart-container">
+        <h2>Part 2.2: Average Likes by Platform and Post Type (Grouped Bar Chart)</h2>
+        <div id="barplot"></div>
+    </div>
+    
+    <div class="chart-container">
+        <h2>Part 2.3: Average Likes Over Time (Line Chart)</h2>
+        <div id="lineplot"></div>
+    </div>
+
+    <script src="visualization.js"></script>
+</body>
+</html>
